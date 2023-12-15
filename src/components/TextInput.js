@@ -19,7 +19,7 @@ function TextInput({ onGenerateImage }) {
           method: 'POST',
           headers: {
             Authorization:
-              'Bearer vk-i%2FQjuNbmbdut0iEo%2FMMWykIvn9zT5G18QKp51mNuD4M%3D',
+              'Bearer your api key',
             Accept: 'image/png', // Request PNG images explicitly
           },
           body: formData,
